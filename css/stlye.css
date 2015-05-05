@@ -1,0 +1,322 @@
+body, html,{
+	margin:0;
+	padding:0;
+	width:100%;
+	font-family: 'Veridian',"arial"
+}
+
+p, strong, a, li{
+ font-family: 'Veridian' 'Arial', 'Arial Narrow', 'sans-serif';
+ color:#ffffff;
+}
+
+a,li{
+	cursor: pointer;
+}
+
+
+/*header*/
+#header{
+  width:1024px;
+  margin:0 auto;
+  background-color: black;
+}
+#logo-bgc{
+	background-color: black;
+}
+
+
+#logo{
+	display:block;
+	margin-top: 10px;
+	margin-left: 105px;
+	margin-right:50px;
+	padding: 15px;
+	padding-top: 10px;
+}
+
+/*nav bar*/
+#nav{
+  width:1024px;
+  margin:0 auto;
+  background-color: #000000;
+  clear: both;
+
+}
+
+#categories {
+  background-color: #000000;
+  padding-left: 5px;
+  padding-top: 10px;
+}
+
+.category-text{
+	width:88px;
+	height:100px;
+	padding-right:0;
+}
+
+.category{
+	text-align: center;
+	color:#ffffff;
+}
+
+/* menu css */
+
+	ul {list-style:none;}
+
+	a {text-decoration:none;}
+
+	#categories{
+		padding-left: 15px;
+	}
+
+	#categories li, .categories li .decade-list .decade {
+	  display:inline-block; /* this is necessary to help center the submenu and make the items align to the left. Refrain from using "float:left" as it makes "text-align" useless. */
+	}
+
+	.categories{
+		padding-top:5px;
+		padding-bottom: 10px;
+	}
+
+	.category{
+	  margin:0 auto;
+	  padding-bottom: 10px;
+	  padding-top:5px;
+	  margin-left: 28px;
+	}
+
+	/* #category states */
+
+	.category:hover {
+	  color:#999999;
+	}
+	.category:visited{
+	  background-color:white;
+	}
+
+	
+
+
+
+	/*years*/
+
+	#categories li .years-list {
+	  display:none; /* hides the submenu */
+	  position:absolute; /* makes it independent of it's father */
+	  background-color: #000000;categories  
+	  -webkit-left:29.2%;
+	  -moz-left:29.2%;
+	  -ms-left:29.2%;
+	  -o-left:29.2%:;
+	  left:29.2%; 
+	  border-style: solid;
+	  margin-top: 5px;
+	}
+
+
+@media (max-width:1025px) {
+	#categories li .years-list {
+	  -webkit-left:18%;
+	  -moz-left:18%;
+	  -ms-left:18%;
+	  -o-left:18%:;
+	  left:18%;
+	}
+}
+
+	
+
+	#categories .category:hover .years-list {
+	  display:inline; /* shows the submenu when I hover on .category */
+	  float:left;
+	  border-radius: 25px;
+		
+	}
+
+	#categories .years-list .years:hover{
+		background-color:#A8A8A8;
+		border-radius:15px;
+
+	}
+
+	/* Used to change font size */
+	.years{
+	  font-size: 20px;
+	  -webkit-padding: 5px 10px;
+	  -moz-padding: 5px 10px;
+	  -ms-padding: 5px 10px;
+	  -o-padding: 5px 10px;
+	  padding: 5px 10px;
+	  margin: 0;
+	}
+
+/*main body*/
+#container {
+	margin: 10px auto 10px auto;
+	width: 1024px;
+	border-style:solid;
+	border-width:2px;
+	background-color: white;
+}
+
+/*funfacts/ left side div*/
+.funfacts{
+	float: left;
+	width:24%;
+	background-color: white;
+	margin-bottom: 15px;
+}
+
+.funfacts img{
+	padding-right: 15px;
+	padding-left: 20px;
+}
+
+.funfacts p{
+	font-size: 16px;
+	color:#666666;
+	margin:0;
+	padding-left: 20px;
+	padding-right: 10px;
+	padding-top: 7px;
+}
+
+#years-img{
+	padding-left: 65px;
+}
+
+/*video div*/
+.video{
+	float: left;
+	width:76%;
+	padding-top: 5px;
+	text-align: center;
+}
+
+/*button*/
+.btn{
+height: 50px;
+width: 90px;
+}
+a .btn:hover{
+fill:#999999;
+}
+.btn-flip{
+transform:scale(-1,1);
+}
+
+/*facts*/
+.facts{
+	float:left;
+	width:225px;
+	text-align: left;
+	width:98%;
+	color:white;
+}
+.facts h2{
+	margin: 5px 0;
+}
+
+#nimoy{
+	padding-top: 20px;
+}
+
+.facts li{
+	font-size: 15px;
+	color:black;
+	cursor:auto;
+	padding-left: 10px;
+	color:#444444;
+	line-height: 23px;
+
+}
+
+#finacial h2{
+	text-align: center;
+	margin-bottom:5px;
+	background-color: #006857;
+	font-size:20px;
+}
+
+#showbiz h2{
+	text-align: center;
+	margin-bottom:5px;
+	background-color: #003874;
+	font-size:20px;
+}
+
+#others h2{
+	text-align: center;
+	margin-bottom:5px;
+	background-color: #b42033;
+	font-size:20px;
+}
+
+#form{
+	width:24%;
+	margin-top: 600px;
+}
+form {
+
+	text-align: center;
+
+}
+/*interview*/
+
+#invterview{
+	float:right;
+	width:76%;
+}
+
+.thumb-nail{
+	margin:0 auto;
+	padding-bottom: 5px;
+	padding-top: 10px;	
+	padding-left: 8px ;
+	padding-right: 8px;
+}
+
+
+#banner_ad{
+	padding-top: 5px;
+	clear:both;
+	padding-bottom: 5px;
+}
+
+/*footer*/
+#footer{
+	margin-top: 10px;
+	width:100%;
+	clear:both;
+	background-color: #000000;
+	font-size:13px;
+
+}
+
+#footer p{
+	margin:0;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	text-align: center;
+	text-align: -webkit-center;
+	text-align: -moz- center;
+	text-align: -o- center;
+}
+/*Contact Us*/
+.about{
+	float: left;
+	margin-left: 5px;
+}
+.about p{
+	color:#666666;
+	font-size: 20px;
+}
+strong{
+	color:#666666;
+}
+.about a{
+	color:#666666;
+	font-size: 20px;
+}
