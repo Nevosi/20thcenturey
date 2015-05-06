@@ -20,6 +20,7 @@ a,li{
   width:1024px;
   margin:0 auto;
   background-color: black;
+	height: 140px;
 }
 #logo-bgc{
 	background-color: black;
@@ -28,19 +29,16 @@ a,li{
 
 #logo{
 	display:block;
-	margin-top: 10px;
-	margin-left: 105px;
-	margin-right:50px;
-	padding: 15px;
+	margin-left: 10px;
+	padding-right: 5px;
+	float: left;
 	padding-top: 10px;
 }
 
 /*nav bar*/
 #nav{
-  width:1024px;
   margin:0 auto;
   background-color: #000000;
-  clear: both;
 
 }
 
@@ -83,8 +81,8 @@ a,li{
 	.category{
 	  margin:0 auto;
 	  padding-bottom: 10px;
-	  padding-top:5px;
-	  margin-left: 28px;
+	  padding-top:20px;
+	  margin-left: 15px;
 	}
 
 	/* #category states */
@@ -105,12 +103,12 @@ a,li{
 	#categories li .years-list {
 	  display:none; /* hides the submenu */
 	  position:absolute; /* makes it independent of it's father */
-	  background-color: #000000;categories  
-	  -webkit-left:29.2%;
-	  -moz-left:29.2%;
-	  -ms-left:29.2%;
-	  -o-left:29.2%:;
-	  left:29.2%; 
+	  background-color: #000000;
+	  -webkit-left:35%;
+	  -moz-left:35%;
+	  -ms-left:35%;
+	  -o-left:35%;
+	  left:35%; 
 	  border-style: solid;
 	  margin-top: 5px;
 	}
@@ -118,11 +116,11 @@ a,li{
 
 @media (max-width:1025px) {
 	#categories li .years-list {
-	  -webkit-left:18%;
-	  -moz-left:18%;
-	  -ms-left:18%;
-	  -o-left:18%:;
-	  left:18%;
+	  -webkit-left:20%;
+	  -moz-left:20%;
+	  -ms-left:20%;
+	  -o-left:20%:;
+	  left:20%;
 	}
 }
 
@@ -198,7 +196,7 @@ a,li{
 /*button*/
 .btn{
 height: 50px;
-width: 90px;
+width: 60px;
 }
 a .btn:hover{
 fill:#999999;
@@ -224,12 +222,12 @@ transform:scale(-1,1);
 }
 
 .facts li{
-	font-size: 15px;
+	font-size: 14px;
 	color:black;
 	cursor:auto;
 	padding-left: 10px;
 	color:#444444;
-	line-height: 23px;
+	line-height: 20px;
 
 }
 
@@ -320,3 +318,6 @@ strong{
 	color:#666666;
 	font-size: 20px;
 }
+
+
+
