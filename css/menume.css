@@ -6,7 +6,8 @@ a {text-decoration:none;}
 
 #categories {
   background-color: #3B3B3B;
-  width:100%;
+
+	float: right;
 }
 
 #categories li, .categories li .decade-list .decade {
