@@ -6,7 +6,7 @@ body, html,{
 }
 
 p, strong, a, li{
- font-family: 'Veridian' 'Arial', 'Arial Narrow', 'sans-serif';
+	font-family: 'Arial', 'Veridian','Arial Narrow', 'sans-serif';
  color:#ffffff;
 }
 
@@ -377,4 +377,62 @@ strong{
 .red-text {
 	color: red;
 	font-weight: bold;
+}
+
+.thankyou {
+	text-align: center;
+}
+
+.form p {
+	color: black;
+}
+
+.flex-row {
+	flex-direction: row;
+	flex-wrap: wrap;
+	width: 340px;
+}
+
+.managment {
+	float: right;
+	width: 240px;
+	text-align: center;
+}
+
+
+.form {
+	float: left;
+	width: 540px;
+	padding: 0 2px;
+}
+
+.creative {
+	float: left;
+	width: 240px;
+	text-align: center;
+}
+
+.creative ul{
+	margin-top: 1em;
+	font-size: 17px;
+	margin-bottom: 5px;
+}
+
+.managment ul{
+	margin-top: 1em;
+	font-size: 17px;
+}
+
+.creative ul li {
+	list-style: none;
+	color: black;
+	padding-top: 5px;
+	font-size: 20px;
+}
+
+.managment ul li {
+	list-style: none;
+	color: black;
+	padding-top: 5px;
+	font-size: 20px;
 }
