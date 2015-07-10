@@ -302,22 +302,8 @@ form {
 	text-align: -moz- center;
 	text-align: -o- center;
 }
-/*Contact Us*/
-.about{
-	float: left;
-	margin-left: 5px;
-}
-.about p{
-	color:#666666;
-	font-size: 20px;
-}
-strong{
-	color:#666666;
-}
-.about a{
-	color:#666666;
-	font-size: 20px;
-}
+
+
 /*Cinema Page*/
 .flex{
 	display: flex;
@@ -344,8 +330,6 @@ strong{
 	order: 1;
 	margin: .3em 0em .3em 1.7em;
 }
-
-
 
 
 .cinema-years {
@@ -393,6 +377,7 @@ strong{
 	width: 340px;
 }
 
+/* contact page */
 .managment {
 	float: right;
 	width: 240px;
@@ -414,7 +399,7 @@ strong{
 
 .creative ul{
 	margin-top: 1em;
-	font-size: 17px;
+	font-size: 15px;
 	margin-bottom: 5px;
 }
 
@@ -427,12 +412,40 @@ strong{
 	list-style: none;
 	color: black;
 	padding-top: 5px;
-	font-size: 20px;
+	font-size: 17px;
 }
 
 .managment ul li {
 	list-style: none;
 	color: black;
 	padding-top: 5px;
-	font-size: 20px;
+	font-size: 18px;
+}
+.form h5 {
+	color: black;
+	margin: 0;
+	text-align: center;
+	margin-top: 3px;
+}
+
+.form img{
+	display:block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+
+.creative a {
+	color: black;
+	font-size: 13px;
+}
+
+.managment a{
+	color: black;
+	font-size: 13px;
+}
+
+.managment .address li {
+	font-size: 15px;
 }
